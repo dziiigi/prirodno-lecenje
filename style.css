@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header img{
+    width: 7%;
+    height: auto;
+    margin: 15px;
+    margin-right: 60%;
+}
+
+header{
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 35px;
+}
+
+header ul li a{
+    margin-left: 45px;
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 400;
+}
+
+header ul li a:hover{
+    color: #00ff63;
+    transition: 0.5s;
+    border: 1px solid #00ff63;
+    padding: 7px;
+}
+
+.opis{
+    background-color: grey;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.opis .naslov{
+    padding-top: 25px;
+    margin-bottom: 370px;
+}
+
+@media only screen and (max-width: 1182px){
+    header ul li{
+        list-style: none;
+        display: block;
+        margin-top: 35px;
+    }
+    
+    header img{
+        width: 10%;
+        height: auto;
+        margin: 15px;
+        margin-right: 70%;
+    }
+}
+
+@media only screen and (max-width: 830px){
+    header img{
+        width: 14%;
+        height: auto;
+        margin: 15px;
+        margin-right: 60%;
+    }
+}
+
+@media only screen and (max-width: 641px){
+    header img{
+        width: 18%;
+        height: auto;
+        margin: 15px;
+        margin-right: 50%;
+    }
+}
+
+@media only screen and (max-width: 510px){
+    header img{
+        width: 22%;
+        height: auto;
+        margin: 15px;
+        margin-right: 30%;
+    }
+}
+
+@media only screen and (max-width: 345px){
+    header img{
+        width: 30%;
+        height: auto;
+        margin: 15px;
+        margin-right: 20%;
+    }
+
+    header ul li a{
+        margin-left: 45px;
+        color: black;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width: 290px){
+    header img{
+        width: 35%;
+        height: auto;
+        margin: 15px;
+        margin-right: 5%;
+    }
+
+    header ul li a{
+        margin-left: 45px;
+        color: black;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
+
+.nasi-proizvodi{
+    margin-bottom: 45px;
+}
+
+.nasi-proizvodi .naslov{
+    margin-top: 75px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.nasi-proizvodi .opis-slike{
+    background-color: #00ff63;
+    padding-top: 15px;
+}
+
+.nasi-proizvodi .opis-slike a{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.nasi-proizvodi .opis-slike a:hover{
+    transition: 0.5s;
+    background-color: black;
+}
+
+.nasi-proizvodi img{
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px){
+    .nasi-proizvodi .opis-slike{
+        width: 95.48%;
+        margin-left: 12px;
+    }
+}
